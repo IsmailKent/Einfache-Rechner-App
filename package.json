@@ -1,0 +1,36 @@
+{
+  "name": "interview-project",
+  "version": "1.0.0",
+  "description": "simple programming task",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "test": "mocha --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IsmailKent/Einfache-Rechner-App.git"
+  },
+  "author": "Ismail Wahdan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IsmailKent/Einfache-Rechner-App/issues"
+  },
+  "homepage": "https://github.com/IsmailKent/Einfache-Rechner-App#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "chai": "^4.3.6",
+    "chai-http": "^4.3.0",
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "jquery": "^3.6.0",
+    "mathjs": "^10.6.1",
+    "method-override": "^3.0.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.16"
+  },
+  "devDependencies": {
+    "mocha": "^10.0.0",
+    "request": "^2.88.2"
+  }
+}
