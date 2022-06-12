@@ -3,11 +3,11 @@
 This app is designed to offer the user the ability to compute certain operations offered by the app. The interfece is provided in German. The available operations are configrables in `json` format. 
 
 ## How to Run 
-
-1. run `npm install` to install node modules
-2. to test the application and make sure everything is fine, run `npm test`
-3. to start the application locally, run the server using `npm start` 
-4. open `localhost:5000` in browser
+1. make sure you have [node and npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) installed
+2. run `npm install` to install node modules
+3. to test the application and make sure everything is fine, run `npm test`
+4. to start the application locally, run the server using `npm start` 
+5. open `localhost:5000` in browser
 
 ## How to add operations
 Inside the `resources/operations.js` file is the `operations object`. An operation is a `json` object defined by the following parameters:
