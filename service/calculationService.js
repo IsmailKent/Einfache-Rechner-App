@@ -13,8 +13,13 @@ function calculateResult(operation, paramaters){
         expression= expression.replace(parameterNames[i], paramaters[i]);
     }
     console.log("evaluation expression "+expression);
-
-    let result = math.evaluate(expression);
+    let result = null;
+    try{
+        result = math.evaluate(expression);
+    }
+    catch(e){
+        console.log(e);
+    }
     return result;
 
     
